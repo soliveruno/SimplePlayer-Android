@@ -17,6 +17,8 @@ A simple music player with a built-in yt-dlp downloader.
 3. When it finishes (~5–8 min), download the **SimplePlayer-apk** artifact and unzip it.
 4. Install `app-arm64-v8a-release.apk` (almost every phone from the last ~7 years).
    Use `app-armeabi-v7a-release.apk` only on very old 32-bit phones.
+   On a PC emulator (BlueStacks, LDPlayer, MEmu, Android Studio emulator…) use `app-x86_64-release.apk`,
+   or `app-x86-release.apk` if the emulator says it only supports x86.
 5. Allow "Install unknown apps" for your browser/file manager when Android asks.
 
 New builds install as updates over the old one (they share the same signing key in `app/release.jks`).
